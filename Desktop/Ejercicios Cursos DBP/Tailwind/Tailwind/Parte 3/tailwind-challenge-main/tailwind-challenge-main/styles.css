@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-card {
+    @apply bg-transparent border border-red-700 rounded px-3 hover:bg-red-500 text-red float-right;
+  }
+}

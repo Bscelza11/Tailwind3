@@ -3,3 +3,13 @@ function toggleNavbar(collapseID) {
   document.getElementById(collapseID).classList.toggle('hidden');
   document.getElementById(collapseID).classList.toggle('block');
 }
+
+function clickboton() {
+  var btnMenu = document.getElementById('navbar-default');
+
+  if (btnMenu.style.display == 'block') {
+    btnMenu.style.display = 'none';
+  } else {
+    btnMenu.style.display = 'block';
+  }
+}
