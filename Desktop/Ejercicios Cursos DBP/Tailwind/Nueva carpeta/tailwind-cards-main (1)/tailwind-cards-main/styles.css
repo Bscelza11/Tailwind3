@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+    .btn-primary {
+        @apply bg-red-600 hover:bg-red-700 text-white py-2 px-4 rounded float-right focus:bg-red-700 focus:border-4 focus:border-rose-200;
+      }
+    
